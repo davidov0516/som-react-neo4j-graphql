@@ -1,0 +1,1 @@
+{"version":3,"file":"node-map.d.ts","sourceRoot":"","sources":["../../../../src/translate/authorization/types/node-map.ts"],"names":[],"mappings":"AAmBA,OAAO,KAAK,MAAM,MAAM,uBAAuB,CAAC;AAChD,OAAO,KAAK,EAAE,IAAI,EAAE,MAAM,gBAAgB,CAAC;AAE3C,MAAM,MAAM,OAAO,GAAG;IAClB,IAAI,EAAE,IAAI,CAAC;IACX,QAAQ,EAAE,MAAM,CAAC,IAAI,CAAC;IACtB,SAAS,CAAC,EAAE,MAAM,CAAC;CACtB,CAAC"}

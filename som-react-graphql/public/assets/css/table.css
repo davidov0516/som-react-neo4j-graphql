@@ -1,0 +1,28 @@
+table td button i {
+  font-size: 12px !important;
+}
+
+td input.form-control {
+  border-width: 0px;
+  box-shadow: none;
+  border-radius: 0% !important;
+  background: transparent !important;
+}
+
+th {
+  background-color: #002147;
+  color: white;
+}
+
+.dataTables_wrapper table button {
+  background: #919eab;
+  border: none;
+}
+
+table {
+  overflow-x: auto;
+}
+
+.dataTables_wrapper .col-sm-12:has(> table) {
+  overflow-x: auto;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"CoalesceAnnotation.d.ts","sourceRoot":"","sources":["../../../src/schema-model/annotation/CoalesceAnnotation.ts"],"names":[],"mappings":"AAmBA,MAAM,MAAM,uBAAuB,GAAG,MAAM,GAAG,MAAM,GAAG,OAAO,CAAC;AAEhE,qBAAa,kBAAkB;IAC3B,SAAgB,KAAK,EAAE,uBAAuB,CAAC;gBAEnC,EAAE,KAAK,EAAE,EAAE;QAAE,KAAK,EAAE,uBAAuB,CAAA;KAAE;CAG5D"}

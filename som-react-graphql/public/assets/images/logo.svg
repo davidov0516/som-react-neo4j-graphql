@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 86" width="86" height="86">
+	<title>New Project</title>
+	<style>
+		.s0 { fill: #6ccdb0;stroke: #6ccdb0;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3.5 } 
+		.s1 { fill: #359cb4;stroke: #359cb4;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3.5 } 
+	</style>
+	<path id="Shape 2" class="s0" d="m28 27c0 0-8.9-10.1-11-11 0 0 18.5-2.2 26-12 7.3 10.1 26 11 26 11-6.7 4.5-11 12-11 12z"/>
+	<path id="Shape 1" class="s1" d="m6 30.7c18.2 5.8 37.6-15.7 37.6-15.7 0 0 19.2 21.1 37 16 0 0-33.4 33-37 48-3.7-15-37.6-48.3-37.6-48.3z"/>
+</svg>

@@ -1,0 +1,1 @@
+{"version":3,"file":"SelectableAnnotation.d.ts","sourceRoot":"","sources":["../../../src/schema-model/annotation/SelectableAnnotation.ts"],"names":[],"mappings":"AAmBA,qBAAa,oBAAoB;IAC7B,SAAgB,MAAM,EAAE,OAAO,CAAC;IAChC,SAAgB,WAAW,EAAE,OAAO,CAAC;gBAEzB,EAAE,MAAM,EAAE,WAAW,EAAE,EAAE;QAAE,MAAM,EAAE,OAAO,CAAC;QAAC,WAAW,EAAE,OAAO,CAAA;KAAE;CAIjF"}

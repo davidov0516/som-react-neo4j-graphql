@@ -1,0 +1,7 @@
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-body .plus-action a {
+  margin-top: 0.6rem !important;
+}

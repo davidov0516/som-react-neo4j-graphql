@@ -1,0 +1,1 @@
+{"version":3,"file":"SettableAnnotation.d.ts","sourceRoot":"","sources":["../../../src/schema-model/annotation/SettableAnnotation.ts"],"names":[],"mappings":"AAmBA,qBAAa,kBAAkB;IAC3B,SAAgB,QAAQ,EAAE,OAAO,CAAC;IAClC,SAAgB,QAAQ,EAAE,OAAO,CAAC;gBAEtB,EAAE,QAAQ,EAAE,QAAQ,EAAE,EAAE;QAAE,QAAQ,EAAE,OAAO,CAAC;QAAC,QAAQ,EAAE,OAAO,CAAA;KAAE;CAI/E"}

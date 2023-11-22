@@ -1,0 +1,1 @@
+{"version":3,"file":"custom-resolver-annotation.d.ts","sourceRoot":"","sources":["../../../../src/schema-model/parser/annotations-parser/custom-resolver-annotation.ts"],"names":[],"mappings":"AAkBA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,SAAS,CAAC;AAE7C,OAAO,EAAE,wBAAwB,EAAE,MAAM,2CAA2C,CAAC;AAGrF,wBAAgB,6BAA6B,CAAC,SAAS,EAAE,aAAa,GAAG,wBAAwB,CAKhG"}

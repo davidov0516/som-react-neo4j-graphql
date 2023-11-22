@@ -1,0 +1,1 @@
+{"version":3,"file":"JWTClaimAnnotation.d.ts","sourceRoot":"","sources":["../../../src/schema-model/annotation/JWTClaimAnnotation.ts"],"names":[],"mappings":"AAmBA,qBAAa,kBAAkB;IAC3B,SAAgB,IAAI,EAAE,MAAM,CAAC;gBAEjB,EAAE,IAAI,EAAE,EAAE;QAAE,IAAI,EAAE,MAAM,CAAA;KAAE;CAGzC"}

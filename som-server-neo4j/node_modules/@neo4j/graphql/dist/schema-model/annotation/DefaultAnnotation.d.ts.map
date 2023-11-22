@@ -1,0 +1,1 @@
+{"version":3,"file":"DefaultAnnotation.d.ts","sourceRoot":"","sources":["../../../src/schema-model/annotation/DefaultAnnotation.ts"],"names":[],"mappings":"AAmBA,MAAM,MAAM,sBAAsB,GAAG,MAAM,GAAG,MAAM,GAAG,OAAO,CAAC;AAE/D,qBAAa,iBAAiB;IAC1B,SAAgB,KAAK,EAAE,sBAAsB,CAAC;gBAElC,EAAE,KAAK,EAAE,EAAE;QAAE,KAAK,EAAE,sBAAsB,CAAA;KAAE;CAG3D"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"subscription-annotation.d.ts","sourceRoot":"","sources":["../../../../src/schema-model/parser/annotations-parser/subscription-annotation.ts"],"names":[],"mappings":"AAkBA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,SAAS,CAAC;AAG7C,OAAO,EAAE,sBAAsB,EAAE,MAAM,yCAAyC,CAAC;AAGjF,wBAAgB,2BAA2B,CAAC,SAAS,EAAE,aAAa,GAAG,sBAAsB,CAM5F"}

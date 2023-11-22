@@ -1,0 +1,1 @@
+{"version":3,"file":"private-annotation.d.ts","sourceRoot":"","sources":["../../../../src/schema-model/parser/annotations-parser/private-annotation.ts"],"names":[],"mappings":"AAmBA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,SAAS,CAAC;AAC7C,OAAO,EAAE,iBAAiB,EAAE,MAAM,oCAAoC,CAAC;AAEvE,wBAAgB,sBAAsB,CAAC,UAAU,EAAE,aAAa,GAAG,iBAAiB,CAEnF"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"LocalTime.d.ts","sourceRoot":"","sources":["../../../src/graphql/scalars/LocalTime.ts"],"names":[],"mappings":"AAoBA,OAAO,EAAgB,iBAAiB,EAAQ,MAAM,SAAS,CAAC;AAGhE,eAAO,MAAM,gBAAgB,QACyE,CAAC;AASvG,eAAO,MAAM,cAAc,UAChB,OAAO;UAER,MAAM;YACJ,MAAM;YACN,MAAM;gBACF,MAAM;CA0BrB,CAAC;AAYF,eAAO,MAAM,gBAAgB,oCAyB3B,CAAC"}

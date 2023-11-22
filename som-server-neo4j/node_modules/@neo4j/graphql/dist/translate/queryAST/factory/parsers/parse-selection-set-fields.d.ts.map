@@ -1,0 +1,1 @@
+{"version":3,"file":"parse-selection-set-fields.d.ts","sourceRoot":"","sources":["../../../../../src/translate/queryAST/factory/parsers/parse-selection-set-fields.ts"],"names":[],"mappings":"AAmBA,MAAM,MAAM,4BAA4B,GAAG;IACvC,SAAS,EAAE,MAAM,CAAC;IAClB,YAAY,EAAE,OAAO,CAAC;IACtB,aAAa,EAAE,OAAO,CAAC;CAC1B,CAAC;AAIF,wBAAgB,sBAAsB,CAAC,KAAK,EAAE,MAAM,GAAG,4BAA4B,CAYlF"}

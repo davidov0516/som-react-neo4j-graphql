@@ -1,0 +1,1 @@
+{"version":3,"file":"parse-annotation.d.ts","sourceRoot":"","sources":["../../../src/schema-model/parser/parse-annotation.ts"],"names":[],"mappings":"AAmBA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,SAAS,CAAC;AAuB7C,OAAO,KAAK,EAAE,UAAU,EAAE,MAAM,0BAA0B,CAAC;AAK3D,wBAAgB,gBAAgB,CAAC,UAAU,EAAE,SAAS,aAAa,EAAE,GAAG,UAAU,EAAE,CAcnF"}

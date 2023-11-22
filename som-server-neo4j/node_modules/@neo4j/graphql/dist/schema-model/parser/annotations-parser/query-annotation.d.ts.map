@@ -1,0 +1,1 @@
+{"version":3,"file":"query-annotation.d.ts","sourceRoot":"","sources":["../../../../src/schema-model/parser/annotations-parser/query-annotation.ts"],"names":[],"mappings":"AAmBA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,SAAS,CAAC;AAE7C,OAAO,EAAE,eAAe,EAAE,MAAM,kCAAkC,CAAC;AAGnE,wBAAgB,oBAAoB,CAAC,SAAS,EAAE,aAAa,GAAG,eAAe,CAO9E"}

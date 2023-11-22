@@ -1,0 +1,1 @@
+{"version":3,"file":"parse-subscription-directive.d.ts","sourceRoot":"","sources":["../../src/schema/parse-subscription-directive.ts"],"names":[],"mappings":"AAmBA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,SAAS,CAAC;AAC7C,OAAO,EAAE,qBAAqB,EAAE,MAAM,kCAAkC,CAAC;AAIzE,iBAAS,0BAA0B,CAAC,aAAa,EAAE,aAAa,GAAG,SAAS,yBAU3E;AAED,eAAe,0BAA0B,CAAC"}

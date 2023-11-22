@@ -1,0 +1,1 @@
+{"version":3,"file":"jwt-claim-annotation.d.ts","sourceRoot":"","sources":["../../../../src/schema-model/parser/annotations-parser/jwt-claim-annotation.ts"],"names":[],"mappings":"AAkBA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,SAAS,CAAC;AAE7C,OAAO,EAAE,kBAAkB,EAAE,MAAM,qCAAqC,CAAC;AAGzE,wBAAgB,uBAAuB,CAAC,SAAS,EAAE,aAAa,GAAG,kBAAkB,CAMpF"}

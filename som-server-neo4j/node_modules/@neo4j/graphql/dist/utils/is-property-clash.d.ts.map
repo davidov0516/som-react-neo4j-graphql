@@ -1,0 +1,1 @@
+{"version":3,"file":"is-property-clash.d.ts","sourceRoot":"","sources":["../../src/utils/is-property-clash.ts"],"names":[],"mappings":"AAmBA,OAAO,KAAK,EAAE,IAAI,EAAE,MAAM,YAAY,CAAC;AAIvC,wBAAgB,yBAAyB,CAAC,EACtC,IAAI,EACJ,KAAK,GACR,EAAE;IACC,IAAI,EAAE,IAAI,CAAC;IACX,KAAK,EAAE,MAAM,CAAC,MAAM,EAAE,GAAG,CAAC,GAAG,SAAS,CAAC;CAC1C,GAAG,MAAM,EAAE,CAwBX"}

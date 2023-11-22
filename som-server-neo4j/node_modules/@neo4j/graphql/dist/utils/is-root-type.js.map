@@ -1,0 +1,1 @@
+{"version":3,"file":"is-root-type.js","sourceRoot":"","sources":["../../src/utils/is-root-type.ts"],"names":[],"mappings":";AAAA;;;;;;;;;;;;;;;;;GAiBG;;;AAIH,MAAM,SAAS,GAAG,CAAC,OAAO,EAAE,UAAU,EAAE,cAAc,CAAC,CAAC;AAExD,SAAgB,UAAU,CAAC,UAAoC;IAC3D,OAAO,SAAS,CAAC,QAAQ,CAAC,UAAU,CAAC,IAAI,CAAC,KAAK,CAAC,CAAC;AACrD,CAAC;AAFD,gCAEC"}

@@ -1,0 +1,38 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "",
+    "test": ""
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "@neo4j/graphql": "^4.4.0",
+    "graphql": "^16.8.1",
+    "https": "^1.0.0",
+    "multer": "^1.4.5-lts.1",
+    "neo4j-driver": "^5.14.0"
+  }
+}

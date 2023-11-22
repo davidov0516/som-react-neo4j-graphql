@@ -1,0 +1,20 @@
+.carouselImage {
+  height: 400px;
+  background: white;
+  position: relative;
+  left: 0;
+  top: 0;
+  transform: translateY(calc(200px - 50%));
+}
+
+.carouselImage2 {
+  opacity: 0;
+  transform: translateY(calc(200px - 150%));
+  left: 100%;
+  transition: left 0.5s ease-in-out;
+}
+
+.carouselImage2.changing {
+  opacity: 1;
+  left: 0%;
+}

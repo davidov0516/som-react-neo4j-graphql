@@ -1,0 +1,1 @@
+{"version":3,"file":"LimitAnnotation.d.ts","sourceRoot":"","sources":["../../../src/schema-model/annotation/LimitAnnotation.ts"],"names":[],"mappings":"AAmBA,qBAAa,eAAe;IACxB,OAAO,CAAC,EAAE,MAAM,CAAC;IACjB,GAAG,CAAC,EAAE,MAAM,CAAC;gBAED,EAAE,OAAO,EAAE,QAAQ,EAAE,GAAG,EAAE,EAAE;QACpC,OAAO,CAAC,EAAE,MAAM,CAAC;QACjB,GAAG,CAAC,EAAE,MAAM,CAAC;KAChB;CAIJ"}

@@ -1,0 +1,12 @@
+.lineTabRemove {
+  float: right;
+  margin-top: -15px;
+  margin-right: -10px;
+  margin-left: 10px;
+  opacity: 0;
+}
+
+.nav-item .nav-link.active .lineTabRemove {
+  display: block;
+  opacity: 1;
+}

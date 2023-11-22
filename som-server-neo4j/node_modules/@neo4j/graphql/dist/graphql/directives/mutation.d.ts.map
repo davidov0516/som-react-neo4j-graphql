@@ -1,0 +1,1 @@
+{"version":3,"file":"mutation.d.ts","sourceRoot":"","sources":["../../../src/graphql/directives/mutation.ts"],"names":[],"mappings":"AAmBA,OAAO,EAAqB,gBAAgB,EAAgD,MAAM,SAAS,CAAC;AAE5G,oBAAY,kBAAkB;IAC1B,MAAM,WAAW;IACjB,MAAM,WAAW;IACjB,MAAM,WAAW;CACpB;AAWD,eAAO,MAAM,iBAAiB,kBAW5B,CAAC"}

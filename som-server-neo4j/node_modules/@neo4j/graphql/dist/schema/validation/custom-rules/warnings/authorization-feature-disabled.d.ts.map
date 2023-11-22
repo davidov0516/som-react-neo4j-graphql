@@ -1,0 +1,1 @@
+{"version":3,"file":"authorization-feature-disabled.d.ts","sourceRoot":"","sources":["../../../../../src/schema/validation/custom-rules/warnings/authorization-feature-disabled.ts"],"names":[],"mappings":"AAmBA,OAAO,KAAK,EAAE,UAAU,EAAiB,MAAM,SAAS,CAAC;AACzD,OAAO,KAAK,EAAE,0BAA0B,EAAE,MAAM,mBAAmB,CAAC;AAEpE,wBAAgB,kCAAkC,CAAC,aAAa,EAAE,0BAA0B,GAAG,SAAS,SAChF,UAAU,CAkBjC"}

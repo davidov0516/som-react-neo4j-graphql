@@ -1,0 +1,1 @@
+{"version":3,"file":"get-or-create-cypher-variable.d.ts","sourceRoot":"","sources":["../../../src/translate/utils/get-or-create-cypher-variable.ts"],"names":[],"mappings":"AAmBA,OAAO,MAAM,MAAM,uBAAuB,CAAC;AAE3C,wBAAgB,qBAAqB,CAAC,UAAU,EAAE,MAAM,CAAC,IAAI,GAAG,MAAM,GAAG,MAAM,CAAC,IAAI,CAGnF;AAED,wBAAgB,yBAAyB,CAAC,cAAc,EAAE,MAAM,CAAC,QAAQ,GAAG,MAAM,GAAG,MAAM,CAAC,QAAQ,CAGnG"}

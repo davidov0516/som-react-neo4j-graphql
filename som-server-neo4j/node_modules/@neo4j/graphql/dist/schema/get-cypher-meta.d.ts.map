@@ -1,0 +1,1 @@
+{"version":3,"file":"get-cypher-meta.d.ts","sourceRoot":"","sources":["../../src/schema/get-cypher-meta.ts"],"names":[],"mappings":"AAmBA,OAAO,EAA4B,KAAK,mBAAmB,EAAE,MAAM,SAAS,CAAC;AAE7E,KAAK,UAAU,GAAG;IACd,SAAS,EAAE,MAAM,CAAC;IAClB,UAAU,EAAE,MAAM,CAAC;CACtB,CAAC;AAEF,wBAAgB,aAAa,CACzB,KAAK,EAAE,mBAAmB,EAC1B,cAAc,CAAC,EAAE,mBAAmB,GACrC,UAAU,GAAG,SAAS,CAYxB"}

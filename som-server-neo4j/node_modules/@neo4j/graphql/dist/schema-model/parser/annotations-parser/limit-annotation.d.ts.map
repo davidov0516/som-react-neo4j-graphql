@@ -1,0 +1,1 @@
+{"version":3,"file":"limit-annotation.d.ts","sourceRoot":"","sources":["../../../../src/schema-model/parser/annotations-parser/limit-annotation.ts"],"names":[],"mappings":"AAmBA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,SAAS,CAAC;AAG7C,OAAO,EAAE,eAAe,EAAE,MAAM,kCAAkC,CAAC;AAGnE,wBAAgB,oBAAoB,CAAC,SAAS,EAAE,aAAa,GAAG,eAAe,CAkB9E"}

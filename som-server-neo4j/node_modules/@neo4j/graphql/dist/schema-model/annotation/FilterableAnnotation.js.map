@@ -1,0 +1,1 @@
+{"version":3,"file":"FilterableAnnotation.js","sourceRoot":"","sources":["../../../src/schema-model/annotation/FilterableAnnotation.ts"],"names":[],"mappings":";AAAA;;;;;;;;;;;;;;;;;GAiBG;;;AAEH,MAAa,oBAAoB;IAI7B,YAAY,EAAE,OAAO,EAAE,WAAW,EAA8C;QAC5E,IAAI,CAAC,OAAO,GAAG,OAAO,CAAC;QACvB,IAAI,CAAC,WAAW,GAAG,WAAW,CAAC;IACnC,CAAC;CACJ;AARD,oDAQC"}

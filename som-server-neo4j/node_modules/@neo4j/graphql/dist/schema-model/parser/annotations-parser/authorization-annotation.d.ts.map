@@ -1,0 +1,1 @@
+{"version":3,"file":"authorization-annotation.d.ts","sourceRoot":"","sources":["../../../../src/schema-model/parser/annotations-parser/authorization-annotation.ts"],"names":[],"mappings":"AAkBA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,SAAS,CAAC;AAK7C,OAAO,EACH,uBAAuB,EAG1B,MAAM,0CAA0C,CAAC;AAGlD,wBAAgB,4BAA4B,CAAC,SAAS,EAAE,aAAa,GAAG,uBAAuB,CAc9F"}

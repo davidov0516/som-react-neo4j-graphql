@@ -1,0 +1,1 @@
+{"version":3,"file":"neo4j-graphql-context-interface.d.ts","sourceRoot":"","sources":["../../src/types/neo4j-graphql-context-interface.ts"],"names":[],"mappings":"AAmBA,OAAO,KAAK,EAAE,UAAU,EAAE,MAAM,MAAM,CAAC;AAEvC;;GAEG;AACH,MAAM,WAAW,4BAA4B;IACzC;;;;;;;;;;;;;;OAcG;IACH,GAAG,CAAC,EAAE,UAAU,CAAC;IACjB;;;;;;;;;;;;;;OAcG;IACH,KAAK,CAAC,EAAE,MAAM,CAAC;CAClB"}

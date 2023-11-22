@@ -1,0 +1,1 @@
+{"version":3,"file":"get-alias-meta.d.ts","sourceRoot":"","sources":["../../src/schema/get-alias-meta.ts"],"names":[],"mappings":"AAoBA,OAAO,KAAK,EAAE,aAAa,EAAmB,MAAM,SAAS,CAAC;AAE9D,KAAK,SAAS,GAAG;IACb,QAAQ,EAAE,MAAM,CAAC;IACjB,iBAAiB,EAAE,MAAM,CAAC;CAC7B,CAAC;AAEF,iBAAS,YAAY,CAAC,SAAS,EAAE,aAAa,GAAG,SAAS,GAAG,SAAS,CAYrE;AAED,eAAe,YAAY,CAAC"}

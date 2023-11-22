@@ -1,0 +1,1 @@
+{"version":3,"file":"timestamp.d.ts","sourceRoot":"","sources":["../../../../../src/schema/validation/custom-rules/directives/timestamp.ts"],"names":[],"mappings":"AAkBA,OAAO,KAAK,EAAE,mBAAmB,EAAE,MAAM,SAAS,CAAC;AAInD,OAAO,KAAK,EAAE,+BAA+B,EAAE,MAAM,sBAAsB,CAAC;AAE5E,wBAAgB,eAAe,CAAC,EAC5B,YAAY,GACf,EAAE;IACC,YAAY,EAAE,+BAA+B,GAAG,mBAAmB,CAAC;CACvE,QAaA"}

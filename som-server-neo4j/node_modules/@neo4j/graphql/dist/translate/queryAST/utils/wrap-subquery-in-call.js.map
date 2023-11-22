@@ -1,0 +1,1 @@
+{"version":3,"file":"wrap-subquery-in-call.js","sourceRoot":"","sources":["../../../../src/translate/queryAST/utils/wrap-subquery-in-call.ts"],"names":[],"mappings":";AAAA;;;;;;;;;;;;;;;;;GAiBG;;;;;;AAEH,2EAA2C;AAE3C,kEAAkE;AAClE,SAAgB,kBAAkB,CAAC,QAAuB,EAAE,MAAuB;IAC/E,OAAO,IAAI,wBAAM,CAAC,IAAI,CAAC,QAAQ,CAAC,CAAC,SAAS,CAAC,MAAM,CAAC,CAAC;AACvD,CAAC;AAFD,gDAEC"}

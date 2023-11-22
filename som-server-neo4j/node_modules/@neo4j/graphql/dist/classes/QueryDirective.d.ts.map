@@ -1,0 +1,1 @@
+{"version":3,"file":"QueryDirective.d.ts","sourceRoot":"","sources":["../../src/classes/QueryDirective.ts"],"names":[],"mappings":"AAmBA,qBAAa,cAAc;IAChB,IAAI,EAAE,OAAO,CAAC;IACd,SAAS,EAAE,OAAO,CAAC;gBAEd,GAAG,EAAE;QAAE,IAAI,EAAE,OAAO,CAAC;QAAC,SAAS,EAAE,OAAO,CAAA;KAAE;CAIzD"}

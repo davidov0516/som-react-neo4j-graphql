@@ -1,0 +1,1 @@
+{"version":3,"file":"generate-event-payload-type.d.ts","sourceRoot":"","sources":["../../../src/schema/subscriptions/generate-event-payload-type.ts"],"names":[],"mappings":"AAmBA,OAAO,KAAK,EAAE,kBAAkB,EAAE,cAAc,EAAE,MAAM,iBAAiB,CAAC;AAE1E,OAAO,KAAK,EAAE,IAAI,EAAE,MAAM,eAAe,CAAC;AAE1C,wBAAgB,wBAAwB,CAAC,IAAI,EAAE,IAAI,EAAE,cAAc,EAAE,cAAc,GAAG,kBAAkB,CAcvG"}

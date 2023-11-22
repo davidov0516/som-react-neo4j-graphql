@@ -1,0 +1,26 @@
+.left-label {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 5px 20px;
+  color: black;
+}
+
+.right-label {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgba(127, 127, 127, 1);
+  padding: 5px 20px;
+  color: white;
+}
+
+.left-label-blue {
+  background-color: rgba(129, 211, 248, 1);
+}
+
+.left-label-orange {
+  background-color: rgba(245, 154, 35, 1);
+}
+
+.left-label-blue a {
+  color: black;
+}

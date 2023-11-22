@@ -1,0 +1,1 @@
+{"version":3,"file":"CypherAnnotation.js","sourceRoot":"","sources":["../../../src/schema-model/annotation/CypherAnnotation.ts"],"names":[],"mappings":";AAAA;;;;;;;;;;;;;;;;;GAiBG;;;AAEH,MAAa,gBAAgB;IAIzB,YAAY,EAAE,SAAS,EAAE,UAAU,EAA6C;QAC5E,IAAI,CAAC,SAAS,GAAG,SAAS,CAAC;QAC3B,IAAI,CAAC,UAAU,GAAG,UAAU,CAAC;IACjC,CAAC;CACJ;AARD,4CAQC"}

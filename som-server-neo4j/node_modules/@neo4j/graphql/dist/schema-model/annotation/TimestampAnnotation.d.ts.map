@@ -1,0 +1,1 @@
+{"version":3,"file":"TimestampAnnotation.d.ts","sourceRoot":"","sources":["../../../src/schema-model/annotation/TimestampAnnotation.ts"],"names":[],"mappings":"AAmBA,qBAAa,mBAAmB;IAC5B,SAAgB,UAAU,EAAE,MAAM,EAAE,CAAC;gBAEzB,EAAE,UAAU,EAAE,EAAE;QAAE,UAAU,EAAE,MAAM,EAAE,CAAA;KAAE;CAGvD"}

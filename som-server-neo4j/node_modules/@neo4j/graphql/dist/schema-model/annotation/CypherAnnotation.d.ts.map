@@ -1,0 +1,1 @@
+{"version":3,"file":"CypherAnnotation.d.ts","sourceRoot":"","sources":["../../../src/schema-model/annotation/CypherAnnotation.ts"],"names":[],"mappings":"AAmBA,qBAAa,gBAAgB;IAClB,SAAS,EAAE,MAAM,CAAC;IAClB,UAAU,EAAE,MAAM,CAAC;gBAEd,EAAE,SAAS,EAAE,UAAU,EAAE,EAAE;QAAE,SAAS,EAAE,MAAM,CAAC;QAAC,UAAU,EAAE,MAAM,CAAA;KAAE;CAInF"}

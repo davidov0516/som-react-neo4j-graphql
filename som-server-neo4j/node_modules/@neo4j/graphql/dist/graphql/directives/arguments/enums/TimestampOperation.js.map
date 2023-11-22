@@ -1,0 +1,1 @@
+{"version":3,"file":"TimestampOperation.js","sourceRoot":"","sources":["../../../../../src/graphql/directives/arguments/enums/TimestampOperation.ts"],"names":[],"mappings":";AAAA;;;;;;;;;;;;;;;;;GAiBG;;;AAEH,qCAA0C;AAE7B,QAAA,sBAAsB,GAAG,IAAI,yBAAe,CAAC;IACtD,IAAI,EAAE,oBAAoB;IAC1B,WAAW,EAAE,4CAA4C;IACzD,MAAM,EAAE;QACJ,MAAM,EAAE,EAAE;QACV,MAAM,EAAE,EAAE;KACb;CACJ,CAAC,CAAC"}

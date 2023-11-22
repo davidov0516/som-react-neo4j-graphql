@@ -1,0 +1,27 @@
+stages:
+  - Install
+  - Build
+  # - Run
+
+variables:
+  MAJOR_VERSION: "1"
+  MINOR_VERSION: "0"
+  BUILD_VERSION: ${CI_PIPELINE_ID}
+  NEW_TAG: $MAJOR_VERSION.$MINOR_VERSION.$BUILD_VERSION
+
+Install-Job:
+  stage: Install
+  script:
+    - npm install
+  artifacts:
+    paths:
+      - node_modules
+
+Build-Job:
+  stage: Build
+  script:
+    - docker build -t som-react:$NEW_TAG .
+    - kind load docker-image som-react:$NEW_TAG --nodes kind-worker
+    - docker rmi som-react:$NEW_TAG
+    - kubectl set image deployment.v1.apps/som-react-deployment som-react=som-react:$NEW_TAG
+  

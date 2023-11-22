@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Material Icons Outlined';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(../fonts/MaterialIcons-Outlined.woff2) format("woff2"), url(../fonts/MaterialIcons-Outlined.woff) format("woff"), url(../fonts/MaterialIcons-Outlined.ttf) format("truetype")
+}
+
+.material-icon {
+  font-family: "Material Icons Outlined", sans-serif;
+  text-align: center;
+}
+
+.material-icon-normal {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}

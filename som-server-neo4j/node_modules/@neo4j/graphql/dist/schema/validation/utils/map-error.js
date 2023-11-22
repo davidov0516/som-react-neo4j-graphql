@@ -1,0 +1,122 @@
+"use strict";
+/*
+ * Copyright (c) "Neo4j"
+ * Neo4j Sweden AB [http://neo4j.com]
+ *
+ * This file is part of Neo4j.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.mapError = void 0;
+const validation_error_codes_1 = require("./validation-error-codes");
+const lower_first_1 = require("../../../utils/lower-first");
+const document_validation_error_1 = require("../custom-rules/utils/document-validation-error");
+function mapError(error) {
+    const { nodes, message } = error;
+    if (isCustomRule(error)) {
+        return mapCustomRuleError(error);
+    }
+    const replacedMessage = renameMysteryDirective(message);
+    if (!replacedMessage) {
+        return error;
+    }
+    return (0, document_validation_error_1.createGraphQLError)({
+        nodes,
+        errorMsg: replacedMessage,
+    });
+}
+exports.mapError = mapError;
+function isCustomRule(error) {
+    const { extensions } = error;
+    return !!(extensions &&
+        extensions["exception"] &&
+        Object.keys(extensions.exception).length &&
+        extensions.exception["code"] &&
+        Object.values(validation_error_codes_1.VALIDATION_ERROR_CODES).includes(extensions.exception["code"]));
+}
+function mapCustomRuleError(error) {
+    const { nodes, message, path } = error;
+    const [argumentNode, directiveNode] = nodes;
+    if (!argumentNode && !directiveNode) {
+        return error;
+    }
+    let replacedMessage = undefined;
+    replacedMessage = eraseDummyJWTValue(message);
+    if (replacedMessage) {
+        return (0, document_validation_error_1.createGraphQLError)({
+            path,
+            errorMsg: replacedMessage,
+        });
+    }
+    replacedMessage = eraseMysteryType(message);
+    if (replacedMessage) {
+        return (0, document_validation_error_1.createGraphQLError)({
+            path,
+            errorMsg: replacedMessage,
+        });
+    }
+    return error;
+}
+const RENAMED_DIRECTIVE_OR_TYPE = /(\s?"([^\s]*?([sS]ubscriptionsAuthorization|Authorization|Authentication)[^\s]*?)")/;
+const WHERE_TYPE = /type(\s\\?".+?\\?")/; // <typename>Where / JwtPayloadWhere
+const JWT_PAYLOAD_DUMMY_VALUE_ERROR = /(?:(?:String)|(?:Int)|(?:Float)|(?:Boolean))(?: cannot represent a?\s?)(?:(?:non string)|(?:non-integer)|(?:non numeric)|(?:non boolean))(?: value)(:.+)/;
+function composeRegex(predicate, ...regexes) {
+    return new RegExp(regexes.map((r) => r.source).join(predicate));
+}
+/**
+ * Renames type-dependent directives generated for the validation schema to their standard equivalent.
+ * eg. `@UserAuthorization` -> `@authorization`
+ */
+function renameMysteryDirective(initialMessage) {
+    const renamedDirectiveMatch = RENAMED_DIRECTIVE_OR_TYPE.exec(initialMessage);
+    if (!renamedDirectiveMatch) {
+        return;
+    }
+    const [, , renamedDirectiveName, directiveName] = renamedDirectiveMatch;
+    if (!renamedDirectiveName || !directiveName) {
+        return;
+    }
+    return initialMessage.replace(renamedDirectiveName, `@${(0, lower_first_1.lowerFirst)(directiveName)}`);
+}
+/**
+ * Deletes references to types that only exist in the validation schema.
+ * eg. `UserAuthorizationValidationRule`
+ */
+function eraseMysteryType(initialMessage) {
+    const mysteryTypeRegex = composeRegex("|", RENAMED_DIRECTIVE_OR_TYPE, WHERE_TYPE);
+    const mysteryTypeMatch = mysteryTypeRegex.exec(initialMessage);
+    if (!mysteryTypeMatch) {
+        return;
+    }
+    // 1st capture group in any of the 2 regexes,
+    // or the 4th capture group in the case of RENAMED_DIRECTIVE_OR_TYPE.
+    const mysteryType = mysteryTypeMatch[1] || mysteryTypeMatch[4];
+    if (!mysteryType) {
+        return;
+    }
+    return initialMessage.replace(mysteryType, "");
+}
+/**
+ * Deletes references to dummy values of the underlying type of the JWT claim that replace the "$jwt." value in the validation schema.
+ * This is done to correctly assert the types, as "$jwt." will always be a string regardless of the underlying type of the JWT claim.
+ */
+function eraseDummyJWTValue(initialMessage) {
+    const isTypeErrorContainingDummyValue = JWT_PAYLOAD_DUMMY_VALUE_ERROR.exec(initialMessage);
+    if (!isTypeErrorContainingDummyValue || !isTypeErrorContainingDummyValue[1]) {
+        return;
+    }
+    const dummyValue = isTypeErrorContainingDummyValue[1];
+    return initialMessage.replace(dummyValue, ".");
+}
+//# sourceMappingURL=map-error.js.map

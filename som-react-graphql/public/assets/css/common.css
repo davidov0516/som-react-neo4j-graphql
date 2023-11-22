@@ -1,0 +1,94 @@
+a {
+  cursor: pointer;
+}
+
+.form-check-input {
+  position: initial;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.form-check-label {
+  margin-bottom: 0.5rem;
+}
+
+textarea {
+  min-height: 160px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 57%;
+}
+
+.image-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.form-row button {
+  height: 38px;
+}
+
+td button {
+  padding-left: 0.3rem !important;
+  padding-right: 0.3rem !important;
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.app-header__logo .logo-src {
+  width: 130px;
+  height: 31px;
+}
+
+.row .card {
+  height: 100%;
+}
+
+.page-title-heading div {
+  color: #B9CF25;
+  text-transform: uppercase;
+}
+
+.page-title-heading div div {
+  color: #495057;
+  text-transform: none;
+}
+
+.btn-outline-warning {
+  color: #333333;
+  border: 1px solid #aaa;
+  background-color: white;
+}
+
+.btn-outline-warning:hover {
+  color: #333333;
+  border: 1px solid transparent !important;
+  background-color: #B9CF25;
+  border: none;
+}
+
+.btn-warning {
+  color: white;
+  border: none;
+  background-color: #B9CF25;
+}
+
+.btn-warning:hover {
+  background-color: #B9CF25;
+}
+
+.modal-dialog {
+  max-width: 100% !important;
+  margin: 0 !important;
+}

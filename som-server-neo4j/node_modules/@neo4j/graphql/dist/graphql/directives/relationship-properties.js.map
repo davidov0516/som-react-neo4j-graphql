@@ -1,0 +1,1 @@
+{"version":3,"file":"relationship-properties.js","sourceRoot":"","sources":["../../../src/graphql/directives/relationship-properties.ts"],"names":[],"mappings":";AAAA;;;;;;;;;;;;;;;;;GAiBG;;;AAEH,qCAA8D;AAEjD,QAAA,+BAA+B,GAAG,IAAI,0BAAgB,CAAC;IAChE,IAAI,EAAE,wBAAwB;IAC9B,WAAW,EAAE,0FAA0F;IACvG,SAAS,EAAE,CAAC,2BAAiB,CAAC,SAAS,CAAC;CAC3C,CAAC,CAAC"}

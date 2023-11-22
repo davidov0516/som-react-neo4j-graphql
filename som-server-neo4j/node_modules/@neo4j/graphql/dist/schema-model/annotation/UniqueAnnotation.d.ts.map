@@ -1,0 +1,1 @@
+{"version":3,"file":"UniqueAnnotation.d.ts","sourceRoot":"","sources":["../../../src/schema-model/annotation/UniqueAnnotation.ts"],"names":[],"mappings":"AAmBA,qBAAa,gBAAgB;IACzB,SAAgB,cAAc,EAAE,MAAM,CAAC;gBAE3B,EAAE,cAAc,EAAE,EAAE;QAAE,cAAc,EAAE,MAAM,CAAA;KAAE;CAG7D"}

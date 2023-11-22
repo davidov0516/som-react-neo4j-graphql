@@ -1,0 +1,1 @@
+{"version":3,"file":"SubscriptionAnnotation.d.ts","sourceRoot":"","sources":["../../../src/schema-model/annotation/SubscriptionAnnotation.ts"],"names":[],"mappings":"AAmBA,OAAO,KAAK,EAAE,iBAAiB,EAAE,MAAM,uCAAuC,CAAC;AAE/E,qBAAa,sBAAsB;IAC/B,SAAgB,MAAM,EAAE,GAAG,CAAC,iBAAiB,CAAC,CAAC;gBAEnC,EAAE,MAAM,EAAE,EAAE;QAAE,MAAM,EAAE,GAAG,CAAC,iBAAiB,CAAC,CAAA;KAAE;CAG7D"}

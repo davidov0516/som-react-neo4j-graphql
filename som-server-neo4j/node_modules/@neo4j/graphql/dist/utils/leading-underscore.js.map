@@ -1,0 +1,1 @@
+{"version":3,"file":"leading-underscore.js","sourceRoot":"","sources":["../../src/utils/leading-underscore.ts"],"names":[],"mappings":";AAAA;;;;;;;;;;;;;;;;;GAiBG;;;AAEH,0KAA0K;AAC1K,SAAgB,kBAAkB,CAAC,IAAY;IAC3C,MAAM,EAAE,GAAG,SAAS,CAAC;IACrB,MAAM,KAAK,GAAG,EAAE,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC;IAC5B,OAAO,KAAK,EAAE,CAAC,CAAC,CAAC,IAAI,EAAE,CAAC;AAC5B,CAAC;AAJD,gDAIC"}
